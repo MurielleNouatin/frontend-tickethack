@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/bookings")
+fetch("https://backend-tickethack-xi.vercel.app/bookings")
   .then((res) => res.json())
   .then((data) => {
     const container = document.querySelector("#bookings");

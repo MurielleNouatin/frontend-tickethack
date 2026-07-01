@@ -1,7 +1,7 @@
 let cart = [];
 
 function displayCart() {
-  fetch('http://localhost:3000/carts')
+  fetch('https://backend-tickethack-xi.vercel.app/carts')
     .then(response => response.json())
     .then(data => {
       const cartContainer = document.querySelector('#cartContainer');
