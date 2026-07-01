@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookings - TicketHack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bookingPage">
+  <header id="mainHeader"></header>
+
+  <div class="bookingBackground">
+    <div id="emptyBookingMessage" style="display: none;">
+      <p>No booking yet.<br>Why not plan a trip?</p>
+    </div>
+
+    <div class="bookingBlock">
+
+      <div class="bookingBox" id="bookingContent">
+        <h1>My Bookings</h1>
+        <div id="bookings">
+          <!-- bookings injectés ici -->
+        </div>
+        <div class="bookingFooter">
+          <h6>Enjoy your travels with Tickethack!</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="header.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/min/moment.min.js"></script> <!-- ajout Mathieu -->
+  <script src="bookings.js"></script>
+</body>
+</html>
