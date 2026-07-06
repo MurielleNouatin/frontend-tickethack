@@ -4,7 +4,7 @@ document.querySelector('#search').addEventListener('click', () => {
   const arrival = document.querySelector('#arrival').value.trim();
   const date = document.querySelector('#date').value;
 
-  fetch('https://backend-tickethack-xi.vercel.app/trips/search', {
+  fetch('https://backend-tickethack-herq.vercel.app/trips/search', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ document.querySelector('#search').addEventListener('click', () => {
 // Bouton book et redirection vers page cart
         document.querySelectorAll('.book').forEach(button => {
           button.addEventListener('click', () => {
-            fetch('https://backend-tickethack-xi.vercel.app/carts', {
+            fetch('https://backend-tickethack-herq.vercel.app/carts', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
